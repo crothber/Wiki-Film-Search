@@ -4,7 +4,7 @@
 This program extracts pages from Wikipedia and identifies key information from the pages. Specifically, the program searches for pages from the category ‘2017 films’ and uses Wikipedia’s ‘Infobox’ structure, along with a number of text-processing heuristics, to identify fields such as title, director, and setting.
 ## Dependencies
 The submitted code is written for Python 2.7. Python code should run identically under OSX and Windows.
-Required Python modules are re, json, wikitools, and geotext.
+Required Python modules are re, json, wikitools (pip install wikitools), and geotext (pip install geotext).
 ## Build Instructions
 Not applicable.
 ## Run Instructions
